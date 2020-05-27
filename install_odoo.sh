@@ -1,23 +1,23 @@
 yum update -y
-sudo yum install epel-release 
+sudo yum -y install epel-release 
 
 #install nocejs and node-less dependencies for ODOO
 sudo yum install nodejs -y
 sudo npm install node-less -y
 
 #install even more dependencies
-sudo yum install git gcc wget libxslt-devel bzip2-devel openldap-devel libjpeg-devel freetype-devel
+sudo yum -y install git gcc wget libxslt-devel bzip2-devel openldap-devel libjpeg-devel freetype-devel
 
 #download compile and install Python 3
 VER=3.6.10
 sudo yum install -y openssl-devel bzip2-devel libffi-devel make
-#wget https://www.python.org/ftp/python/$VER/Python-$VER.tgz
-#tar xvf Python-$VER.tgz
-#cd Python-$VER
-#./configure --enable-optimizations --with-ensurepip=install
-#sudo make 
-#sudo make install
-#cd ../
+wget https://www.python.org/ftp/python/$VER/Python-$VER.tgz
+tar xvf Python-$VER.tgz
+cd Python-$VER
+./configure --enable-optimizations --with-ensurepip=install
+sudo make 
+sudo make install
+cd ../
 
 #install pip items
 pip3 install --upgrade pip setuptools
@@ -31,15 +31,16 @@ sudo useradd -m -U -r -d /opt/odoo -s /bin/bash odoo
 #download and install PostgreSQL
 
 #add the postgres repo to dnf
-dnf -y module enable postgresql:12
+sudo yum -y install https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 
 #install postgres server
-dnf -y install postgresql-server
-sudo postgresql-setup --initdb
+yum install -y postgresql12-server postgresql12-devel
+/usr/pgsql-12/bin/postgresql-12-setup initdb
+
 
 #enable the service at boot
-sudo systemctl enable postgresql
-sudo systemctl start postgresql
+sudo systemctl enable postgresql-12
+sudo systemctl start postgresql-12
 
 #assign the system user to the db engine.
 sudo su - postgres -c "createuser -s odoo"
