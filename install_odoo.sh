@@ -10,7 +10,7 @@ sudo yum -y install git gcc wget libxslt-devel bzip2-devel openldap-devel libjpe
 
 #download compile and install Python 3
 VER=3.6.10
-sudo yum install -y openssl-devel bzip2-devel libffi-devel make
+sudo yum install -y openssl-devel bzip2-devel libffi-devel make nano
 wget https://www.python.org/ftp/python/$VER/Python-$VER.tgz
 tar xvf Python-$VER.tgz
 cd Python-$VER
@@ -34,7 +34,7 @@ sudo useradd -m -U -r -d /opt/odoo -s /bin/bash odoo
 sudo yum -y install https://download.postgresql.org/pub/repos/yum/reporpms/EL-8-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 
 #install postgres server
-yum install -y postgresql12-server postgresql12-devel
+yum install -y postgresql12-server
 /usr/pgsql-12/bin/postgresql-12-setup initdb
 
 
