@@ -55,6 +55,13 @@ pip3 install -r /opt/odoo/12.0/requirements.txt
 
 mkdir /var/log/odoo
 mkdir /opt/odoo/cache
+mkdir /opt/odoo/extra_addons
+mkdir /opt/odoo/extra_addons/12.0
+
+git clone https://github.com/OCA/account-financial-tools.git --branch=12.0 --depth=1 /opt/odoo/extra_addons/oca_account-financial-tools
+git clone https://github.com/OCA/knowledge.git --branch=12.0 --depth=1 /opt/odoo/extra_addons/oca_knowledge
+git clone https://github.com/OCA/management-system.git --branch=12.0 --depth=1 /opt/odoo/extra_addons/oca_management
+git clone https://github.com/OCA/manufacture.git --branch=12.0 --depth=1 /opt/odoo/extra_addons/oca_manufacture
 
 cp odoo.conf /etc/odoo.conf
 cp odoo.service /etc/systemd/system/odoo.service
