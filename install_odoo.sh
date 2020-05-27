@@ -86,3 +86,5 @@ systemctl daemon-reload
 systemctl enable cloud9
 systemctl start cloud9
 
+#debuger add on for cloud9 python3
+pip3 install ikp3db
