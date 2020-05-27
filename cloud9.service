@@ -7,7 +7,7 @@ Type=simple
 SyslogIdentifier=c9sdk
 PermissionsStartOnly=true
 User=root
-ExecStart= node /opt/c9sdk/server.js -p 3000 -l 0.0.0.0 -a ecco:ecco123 --collab -w /opt/odoo
+ExecStart=/usr/bin/node /opt/c9sdk/server.js -p 3000 -l 0.0.0.0 -a ecco:ecco123 --collab -w /opt/odoo
 StandardOutput=journal+console
 
 [Install]

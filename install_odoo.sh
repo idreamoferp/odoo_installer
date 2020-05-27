@@ -75,3 +75,14 @@ systemctl daemon-reload
 systemctl enable odoo
 systemctl start odoo
 
+#install cloud9 IDE
+
+yum install -y glibc-static
+git clone https://github.com/c9/core.git /opt/c9sdk
+bash /opt/c9sdk/scripts/install-sdk.sh
+
+cp cloud9.service /etc/systemd/system/cloud9.service
+systemctl daemon-reload
+systemctl enable cloud9
+systemctl start cloud9
+
