@@ -1,0 +1,4 @@
+#!/bin/bash
+apt install libjasper-dev libqtgui4 libqt4-test libhdf5-dev -y
+pip3 install opencv-python opencv-contrib-python==4.1.0.25 
+
