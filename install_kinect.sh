@@ -9,7 +9,7 @@ sudo make install
 cd ..
 
 #install libfreenect
-apt-get install cmake cmake-curses-gui pkg-config
+apt-get install -y cmake cmake-curses-gui pkg-config
 
 git clone https://github.com/OpenKinect/libfreenect.git
 cd libfreenect
@@ -18,3 +18,9 @@ cd build
 cmake ..
 make
 make install
+cd ..
+
+#install wrapper for python3
+cd wrappers/python
+python3 setup.py install
+cd ..
