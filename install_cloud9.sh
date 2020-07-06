@@ -1,3 +1,6 @@
+#install service
+sudo cp cloud9.service /etc/systemd/system/cloud9.service
+
 cd /opt/
 git clone https://github.com/c9/core.git c9sdk
 
@@ -7,10 +10,7 @@ cd c9sdk
 ./scripts/install-sdk.sh
 pip3 install ikp3db
 
-#install service
-sudo cp cloud9.service /etc/systemd/system/cloud9.service
+#setup service
 sudo systemctl daemon-reload
 sudo systemctl cloud9 enable
 sudo systemctl cloud9 start
-
-
