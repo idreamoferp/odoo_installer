@@ -1,0 +1,1126 @@
+#use_cache "/var/lib/cloud9/install_helpers/opencv/.cache"
+#do_unpack "v0.1.1f.zip" "b624b995ec9c439cbc2e9e6ee940d3a2" "https://github.com/opencv/ade/archive/v0.1.1f.zip" "/var/lib/cloud9/install_helpers/opencv/build/3rdparty/ade"
+#cmake_download "/var/lib/cloud9/install_helpers/opencv/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip" "https://github.com/opencv/ade/archive/v0.1.1f.zip"
+#try 1
+# Expire in 0 ms for 6 (transfer 0x24f11f8)
+# Expire in 600000 ms for 8 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 6 ms for 1 (transfer 0x24f11f8)
+# Expire in 6 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 11 ms for 1 (transfer 0x24f11f8)
+# Expire in 11 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 11 ms for 1 (transfer 0x24f11f8)
+# Expire in 11 ms for 1 (transfer 0x24f11f8)
+# Expire in 14 ms for 1 (transfer 0x24f11f8)
+#   Trying 140.82.112.3...
+# TCP_NODELAY set
+# Expire in 200 ms for 4 (transfer 0x24f11f8)
+# Connected to github.com (140.82.112.3) port 443 (#0)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: none
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [122 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+# [25 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Certificate (11):
+# [2976 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, CERT verify (15):
+# [264 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Finished (20):
+# [36 bytes data]
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+# [1 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Finished (20):
+# [36 bytes data]
+# SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=github.com
+#  start date: May  5 00:00:00 2020 GMT
+#  expire date: May 10 12:00:00 2022 GMT
+#  subjectAltName: host "github.com" matched cert's "github.com"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+#  SSL certificate verify ok.
+# [5 bytes data]
+# [1 bytes data]
+# GET /opencv/ade/archive/v0.1.1f.zip HTTP/1.1
+# Host: github.com
+# User-Agent: curl/7.64.0
+# Accept: */*
+# 
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+# [57 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+# [57 bytes data]
+# old SSL session ID is stale, removing
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# HTTP/1.1 302 Found
+# server: GitHub.com
+# date: Fri, 03 Jul 2020 16:31:35 GMT
+# content-type: text/html; charset=utf-8
+# status: 302 Found
+# vary: X-PJAX, Accept-Encoding, Accept, X-Requested-With
+# location: https://codeload.github.com/opencv/ade/zip/v0.1.1f
+# cache-control: max-age=0, private
+# strict-transport-security: max-age=31536000; includeSubdomains; preload
+# x-frame-options: deny
+# x-content-type-options: nosniff
+# x-xss-protection: 1; mode=block
+# expect-ct: max-age=2592000, report-uri="https://api.github.com/_private/browser/errors"
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# content-security-policy: default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://live.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker.js gist.github.com/socket-worker.js
+# Content-Length: 116
+# X-GitHub-Request-Id: A1E2:5203:8E4F59:FB70E0:5EFF5D67
+# 
+# Ignoring the response-body
+# [116 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# Connection #0 to host github.com left intact
+# Issue another request to this URL: 'https://codeload.github.com/opencv/ade/zip/v0.1.1f'
+# Expire in 600000 ms for 8 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 0 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 1 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 2 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 3 ms for 1 (transfer 0x24f11f8)
+# Expire in 3 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 5 ms for 1 (transfer 0x24f11f8)
+# Expire in 5 ms for 1 (transfer 0x24f11f8)
+# Expire in 4 ms for 1 (transfer 0x24f11f8)
+# Expire in 5 ms for 1 (transfer 0x24f11f8)
+# Expire in 5 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 7 ms for 1 (transfer 0x24f11f8)
+# Expire in 7 ms for 1 (transfer 0x24f11f8)
+# Expire in 8 ms for 1 (transfer 0x24f11f8)
+# Expire in 7 ms for 1 (transfer 0x24f11f8)
+# Expire in 7 ms for 1 (transfer 0x24f11f8)
+# Expire in 9 ms for 1 (transfer 0x24f11f8)
+#   Trying 140.82.114.9...
+# TCP_NODELAY set
+# Expire in 200 ms for 4 (transfer 0x24f11f8)
+# Connected to codeload.github.com (140.82.114.9) port 443 (#1)
+# ALPN, offering h2
+# ALPN, offering http/1.1
+# successfully set certificate verify locations:
+#   CAfile: none
+#   CApath: /etc/ssl/certs
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Client hello (1):
+# [512 bytes data]
+# [5 bytes data]
+# TLSv1.3 (IN), TLS handshake, Server hello (2):
+# [122 bytes data]
+# [5 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+# [25 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Certificate (11):
+# [2975 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, CERT verify (15):
+# [264 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Finished (20):
+# [36 bytes data]
+# [5 bytes data]
+# TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+# [1 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (OUT), TLS handshake, Finished (20):
+# [36 bytes data]
+# SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256
+# ALPN, server accepted to use http/1.1
+# Server certificate:
+#  subject: C=US; ST=California; L=San Francisco; O=GitHub, Inc.; CN=*.github.com
+#  start date: Jun 22 00:00:00 2020 GMT
+#  expire date: Aug 17 12:00:00 2022 GMT
+#  subjectAltName: host "codeload.github.com" matched cert's "*.github.com"
+#  issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA
+#  SSL certificate verify ok.
+# [5 bytes data]
+# [1 bytes data]
+# GET /opencv/ade/zip/v0.1.1f HTTP/1.1
+# Host: codeload.github.com
+# User-Agent: curl/7.64.0
+# Accept: */*
+# 
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+# [57 bytes data]
+# [5 bytes data]
+# [1 bytes data]
+# TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+# [57 bytes data]
+# old SSL session ID is stale, removing
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# HTTP/1.1 200 OK
+# Access-Control-Allow-Origin: https://render.githubusercontent.com
+# Content-Disposition: attachment; filename=ade-0.1.1f.zip
+# Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+# Content-Type: application/zip
+# ETag: "d6c62c0c3b4dc6059be5fd41ab24d5e0b5d7968e0563d1c2f0e56f27d0f4a57f"
+# Strict-Transport-Security: max-age=31536000
+# Vary: Authorization,Accept-Encoding
+# X-Content-Type-Options: nosniff
+# X-Frame-Options: deny
+# X-XSS-Protection: 1; mode=block
+# Date: Fri, 03 Jul 2020 16:31:36 GMT
+# X-Varnish: 21075749
+# Age: 0
+# Via: 1.1 varnish (Varnish/6.0)
+# X-Cache: MISS
+# X-Cache-Hits: 0
+# Accept-Ranges: bytes
+# Transfer-Encoding: chunked
+# X-GitHub-Request-Id: D182:02DB:12F310:230D3C:5EFF5D67
+# 
+# [634 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [53 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [696 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [129 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1360 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [708 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [659 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1306 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [71 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [992 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [377 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1006 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [363 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1020 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [349 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1034 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [240 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [102 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1048 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [687 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1146 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1370 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# [5 bytes data]
+# [1 bytes data]
+# [1335 bytes data]
+# Expire in 1000 ms for 7 (transfer 0x24f11f8)
+# Connection #1 to host codeload.github.com left intact
+# 
+
+#check_md5 "/var/lib/cloud9/install_helpers/opencv/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"
+#mkdir "/var/lib/cloud9/install_helpers/opencv/build/3rdparty/ade"
+#unpack "/var/lib/cloud9/install_helpers/opencv/build/3rdparty/ade" "/var/lib/cloud9/install_helpers/opencv/.cache/ade/b624b995ec9c439cbc2e9e6ee940d3a2-v0.1.1f.zip"

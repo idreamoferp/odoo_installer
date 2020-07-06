@@ -1,0 +1,804 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01665/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01665.dir/build.make CMakeFiles/cmTC_01665.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01665.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_01665.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_01665
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01665.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_01665.dir/src.cxx.o  -o cmTC_01665 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0d78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0d78.dir/build.make CMakeFiles/cmTC_c0d78.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0d78.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_c0d78.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_c0d78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0d78.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_c0d78.dir/src.cxx.o  -o cmTC_c0d78 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_222a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_222a0.dir/build.make CMakeFiles/cmTC_222a0.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_222a0.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_222a0.dir/src.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_222a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_222a0.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_222a0.dir/src.c.o  -o cmTC_222a0 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08e48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08e48.dir/build.make CMakeFiles/cmTC_08e48.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08e48.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wsuggest-override -o CMakeFiles/cmTC_08e48.dir/src.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_08e48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08e48.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_08e48.dir/src.c.o  -o cmTC_08e48 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfcdb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cfcdb.dir/build.make CMakeFiles/cmTC_cfcdb.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfcdb.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_cfcdb.dir/src.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_cfcdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfcdb.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_cfcdb.dir/src.c.o  -o cmTC_cfcdb 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe1b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe1b5.dir/build.make CMakeFiles/cmTC_fe1b5.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe1b5.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_fe1b5.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_fe1b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe1b5.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_fe1b5.dir/src.cxx.o  -o cmTC_fe1b5 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f8de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f8de.dir/build.make CMakeFiles/cmTC_1f8de.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f8de.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_1f8de.dir/src.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_1f8de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f8de.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_1f8de.dir/src.c.o  -o cmTC_1f8de 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2c37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2c37.dir/build.make CMakeFiles/cmTC_c2c37.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2c37.dir/cpu_neon.cpp.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -std=c++11 -o CMakeFiles/cmTC_c2c37.dir/cpu_neon.cpp.o -c /var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp:24:2: error: #error "NEON is not supported"
+ #error "NEON is not supported"
+  ^~~~~
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp:13:30: error: ‘uint8x16_t’ does not name a type
+ void test_aliased_type(const uint8x16_t& a) { }
+                              ^~~~~~~~~~
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp:14:30: error: ‘int8x16_t’ does not name a type
+ void test_aliased_type(const int8x16_t& a) { }
+                              ^~~~~~~~~
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp:14:6: error: redefinition of ‘void test_aliased_type(const int&)’
+ void test_aliased_type(const int8x16_t& a) { }
+      ^~~~~~~~~~~~~~~~~
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp:13:6: note: ‘void test_aliased_type(const int&)’ previously defined here
+ void test_aliased_type(const uint8x16_t& a) { }
+      ^~~~~~~~~~~~~~~~~
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp: In function ‘int main()’:
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_neon.cpp:29:18: error: ‘test’ was not declared in this scope
+   printf("%d\n", test());
+                  ^~~~
+make[1]: *** [CMakeFiles/cmTC_c2c37.dir/build.make:66: CMakeFiles/cmTC_c2c37.dir/cpu_neon.cpp.o] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c2c37/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4b1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4b1f.dir/build.make CMakeFiles/cmTC_d4b1f.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4b1f.dir/cpu_fp16.cpp.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -std=c++11 -o CMakeFiles/cmTC_d4b1f.dir/cpu_fp16.cpp.o -c /var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_fp16.cpp
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_fp16.cpp: In function ‘int test()’:
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_fp16.cpp:21:5: error: ‘float16x4_t’ was not declared in this scope
+     float16x4_t v_dst = vcvt_f16_f32(v_src);
+     ^~~~~~~~~~~
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_fp16.cpp:21:5: note: suggested alternative: ‘float32x4_t’
+     float16x4_t v_dst = vcvt_f16_f32(v_src);
+     ^~~~~~~~~~~
+     float32x4_t
+/var/lib/cloud9/install_helpers/opencv/cmake/checks/cpu_fp16.cpp:22:19: error: expected primary-expression before ‘)’ token
+     *(float16x4_t*)dst = v_dst;
+                   ^
+make[1]: *** [CMakeFiles/cmTC_d4b1f.dir/build.make:66: CMakeFiles/cmTC_d4b1f.dir/cpu_fp16.cpp.o] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d4b1f/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_220c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_220c6.dir/build.make CMakeFiles/cmTC_220c6.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_220c6.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_220c6.dir/src.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_220c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_220c6.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_220c6.dir/src.c.o  -o cmTC_220c6 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9020e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9020e.dir/build.make CMakeFiles/cmTC_9020e.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9020e.dir/OFF64_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9020e.dir/OFF64_T.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: error: ‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+ #define SIZE (sizeof(off64_t))
+                      ^~~~~~~
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_9020e.dir/build.make:66: CMakeFiles/cmTC_9020e.dir/OFF64_T.c.o] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9020e/fast] Error 2
+
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe9af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe9af.dir/build.make CMakeFiles/cmTC_fe9af.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe9af.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_fe9af.dir/src.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_fe9af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe9af.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_fe9af.dir/src.c.o  -o cmTC_fe9af 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0041b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0041b.dir/build.make CMakeFiles/cmTC_0041b.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0041b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0041b.dir/CheckIncludeFile.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_0041b.dir/build.make:66: CMakeFiles/cmTC_0041b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0041b/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38794/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38794.dir/build.make CMakeFiles/cmTC_38794.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38794.dir/int8.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_38794.dir/int8.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int8.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int8.c:23:22: error: ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+ #define SIZE (sizeof(INT8))
+                      ^~~~
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_38794.dir/build.make:66: CMakeFiles/cmTC_38794.dir/int8.c.o] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_38794/fast] Error 2
+
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff5a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff5a8.dir/build.make CMakeFiles/cmTC_ff5a8.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff5a8.dir/int16.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ff5a8.dir/int16.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int16.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int16.c:23:22: error: ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+ #define SIZE (sizeof(INT16))
+                      ^~~~~
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_ff5a8.dir/build.make:66: CMakeFiles/cmTC_ff5a8.dir/int16.c.o] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ff5a8/fast] Error 2
+
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06ef6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06ef6.dir/build.make CMakeFiles/cmTC_06ef6.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06ef6.dir/int32.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_06ef6.dir/int32.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int32.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int32.c:23:22: error: ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+ #define SIZE (sizeof(INT32))
+                      ^~~~~
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_06ef6.dir/build.make:66: CMakeFiles/cmTC_06ef6.dir/int32.c.o] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_06ef6/fast] Error 2
+
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac87e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac87e.dir/build.make CMakeFiles/cmTC_ac87e.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac87e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ac87e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac87e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac87e.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_ac87e.dir/CheckFunctionExists.c.o  -o cmTC_ac87e 
+/usr/bin/ld: CMakeFiles/cmTC_ac87e.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x6): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ac87e.dir/build.make:87: cmTC_ac87e] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ac87e/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83943/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83943.dir/build.make CMakeFiles/cmTC_83943.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83943.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_83943.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_83943
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83943.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_83943.dir/src.cxx.o  -o cmTC_83943 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-absolute-value’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75eb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75eb8.dir/build.make CMakeFiles/cmTC_75eb8.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75eb8.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_75eb8.dir/src.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
+Linking C executable cmTC_75eb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75eb8.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_75eb8.dir/src.c.o  -o cmTC_75eb8 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1224/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1224.dir/build.make CMakeFiles/cmTC_a1224.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1224.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_a1224.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_a1224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1224.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a1224.dir/src.cxx.o  -o cmTC_a1224 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c117/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c117.dir/build.make CMakeFiles/cmTC_6c117.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c117.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_6c117.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c117
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c117.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_6c117.dir/CheckFunctionExists.c.o  -o cmTC_6c117 
+/usr/bin/ld: CMakeFiles/cmTC_6c117.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x6): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6c117.dir/build.make:87: cmTC_6c117] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6c117/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78591/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78591.dir/build.make CMakeFiles/cmTC_78591.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78591.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_78591.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_78591
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78591.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_78591.dir/src.cxx.o  -o cmTC_78591 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44686/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44686.dir/build.make CMakeFiles/cmTC_44686.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_44686.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_44686.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_44686
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44686.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_44686.dir/src.cxx.o  -o cmTC_44686 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4bdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4bdc.dir/build.make CMakeFiles/cmTC_e4bdc.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4bdc.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_e4bdc.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_e4bdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4bdc.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e4bdc.dir/src.cxx.o  -o cmTC_e4bdc 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89c3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89c3a.dir/build.make CMakeFiles/cmTC_89c3a.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89c3a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_89c3a.dir/CheckIncludeFile.c.o   -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_89c3a.dir/build.make:66: CMakeFiles/cmTC_89c3a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_89c3a/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e4d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e4d4.dir/build.make CMakeFiles/cmTC_0e4d4.dir/build
+make[1]: Entering directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e4d4.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-unused-private-field -std=c++11 -o CMakeFiles/cmTC_0e4d4.dir/src.cxx.o -c /var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_0e4d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e4d4.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0e4d4.dir/src.cxx.o  -o cmTC_0e4d4 
+make[1]: Leaving directory '/var/lib/cloud9/install_helpers/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+

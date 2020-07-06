@@ -1,0 +1,11 @@
+//user-defined headers
+#include "/var/lib/cloud9/install_helpers/opencv/modules/core/misc/python/pyopencv_async.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/core/misc/python/pyopencv_umat.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "/var/lib/cloud9/install_helpers/opencv/modules/stitching/misc/python/pyopencv_stitching.hpp"
