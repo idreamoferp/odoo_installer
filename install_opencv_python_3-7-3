@@ -1,4 +1,12 @@
 #!/bin/bash
-apt install python3-opencv -y
+apt install python3-opencv libatlas-base-dev libqtgui4 libqt4-test -y
 pip3 install opencv-contrib-python==4.1.0.25 
+
+git clone https://github.com/mdadams/jasper
+cd jasper
+cmake . -DALLOW_IN_SOURCE_BUILD=1
+make
+sudo make install
+sudo ln -s /usr/local/lib/libjasper.so.4 /usr/lib/libjasper.so.1
+
 
