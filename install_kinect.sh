@@ -19,8 +19,10 @@ cmake ..
 make
 make install
 cd ..
+#install rules for kinect
+sudo cp platform/linux/udev/51-kinect.rules /etc/udev/rules.d/
 
 #install wrapper for python3
 cd wrappers/python
 python3 setup.py install
-cd ..
+cd ../../../
