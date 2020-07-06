@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install python3-opencv libatlas-base-dev libqtgui4 libqt4-test -y
+apt install cmake python3-opencv libatlas-base-dev libqtgui4 libqt4-test -y
 pip3 install opencv-contrib-python==4.1.0.25 
 
 git clone https://github.com/mdadams/jasper
