@@ -5,12 +5,18 @@ cd /opt/
 git clone https://github.com/c9/core.git c9sdk
 
 #install requirements
-sudo apt install nodejs
+sudo apt update
+sudo apt upgrade -y
+sudo apt install nodejs -y
+
+#install c9sdk
 cd c9sdk
 ./scripts/install-sdk.sh
+
+#add python debugger
 pip3 install ikp3db
 
 #setup service
 sudo systemctl daemon-reload
-sudo systemctl cloud9 enable
-sudo systemctl cloud9 start
+sudo systemctl enable cloud9.service
+sudo systemctl start cloud9.service
