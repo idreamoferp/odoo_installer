@@ -1,0 +1,17 @@
+git clone https://github.com/OpenKinect/libfreenect2.git
+
+sudo apt-get install build-essential cmake pkg-config libusb-1.0-0-dev libglfw3-dev libva-dev libjpeg-dev libopenni2-dev -y
+
+cd libfreenect2
+mkdir build
+
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local
+make
+make install
+
+cp ../platform/linux/udev/90-kinect2.rules /etc/udev/rules.d/
+
+pip3 install numpy cython
+pip3 install pylibfreenect2
+
